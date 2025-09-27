@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NZ Nursing State Exam Quiz</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#1976d2" />
+</head>
+<body>
+  <h1>NZ Nursing State Exam Quiz</h1>
+  <div id="setup" class="setup">
+    <label for="setSelect">Select a quiz set:</label>
+    <select id="setSelect"></select>
+    <button id="startBtn">Start Quiz</button>
+  </div>
+
+  <div id="quizContainer" class="quiz" hidden>
+    <div id="progress" class="progress"></div>
+    <div id="question" class="question"></div>
+    <div id="options" class="options"></div>
+    <div class="navigation">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </div>
+    <div id="score" class="score" hidden></div>
+  </div>
+
+  <!-- Load embedded questions data before the main script. This file defines
+       window.embeddedQuizData with all question sets so the app works offline. -->
+  <script src="questions_data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1205 @@
+{
+  "name": "Mock GPT 2",
+  "questions": [
+    {
+      "question": "Morphine 6 mg IV is prescribed. Stock: 10 mg/mL. What volume will you draw up?",
+      "options": [
+        "0.4 mL",
+        "0.6 mL",
+        "0.8 mL",
+        "1.0 mL"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Infuse 1500 mL 0.9% NaCl over 12 hours using a pump. Set the rate to:",
+      "options": [
+        "100 mL/hr",
+        "110 mL/hr",
+        "120 mL/hr",
+        "125 mL/hr"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Ibuprofen 10 mg/kg PO is ordered. Child weighs 14 kg. Suspension: 100 mg/5 mL. What volume will you give?",
+      "options": [
+        "5 mL",
+        "6 mL",
+        "7 mL",
+        "8 mL"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "500 mL is to run over 4 hours. Drop factor 15 gtt/mL. What is the drip rate (gtt/min), nearest whole number?",
+      "options": [
+        "25",
+        "31",
+        "38",
+        "42"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Dopamine 400 mg/250 mL (1,600 mcg/mL). Order: 5 mcg/kg/min for a 70-kg adult. What pump rate (mL/hr) is closest?",
+      "options": [
+        "10",
+        "13",
+        "15",
+        "18"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Vancomycin 1.25 g in 250 mL is to infuse over 2 hours. Pump setting (mL/hr)?",
+      "options": [
+        "100",
+        "120",
+        "125",
+        "150"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Warfarin 7.5 mg PO is prescribed. Tablets are 3 mg. How many tablets?",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "3.5"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Adult anaphylaxis: adrenaline 0.5 mg IM. Stock 1:1000 (1 mg/mL). What volume?",
+      "options": [
+        "0.3 mL",
+        "0.4 mL",
+        "0.5 mL",
+        "1.0 mL"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Maintenance fluids (4-2-1 rule). Child weighs 36 kg. Hourly rate?",
+      "options": [
+        "60 mL/hr",
+        "66 mL/hr",
+        "76 mL/hr",
+        "86 mL/hr"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "KCl 30 mmol in 100 mL is running at 10 mL/hr. How long will it take?",
+      "options": [
+        "4 hours",
+        "6 hours",
+        "8 hours",
+        "10 hours"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Microdrip set (60 gtt/mL) with an order for 80 mL/hr. What is the rate in gtt/min?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Gentamicin 5 mg/kg IV is ordered. Patient weighs 82 kg. Stock: 40 mg/mL. What volume will you draw up (approx.)?",
+      "options": [
+        "8.2 mL",
+        "9.5 mL",
+        "10.3 mL",
+        "12.5 mL Part B - Nursing Knowledge (108 questions)"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "(Respiratory) Which oxygen device delivers the most precise, titratable FiO??",
+      "options": [
+        "Nasal cannula",
+        "Simple face mask",
+        "Venturi mask",
+        "Non-rebreather mask"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which ABG pattern indicates type I (hypoxaemic) respiratory failure?",
+      "options": [
+        "pH 7.30, PaO? 80, PaCO? 60",
+        "pH 7.43, PaO? 55, PaCO? 34",
+        "pH 7.36, PaO? 90, PaCO? 40",
+        "pH 7.28, PaO? 70, PaCO? 55"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Key nursing measure to prevent hospital-acquired pneumonia is:",
+      "options": [
+        "Trendelenburg positioning",
+        "Elevate head of bed 30-45",
+        "Restrict oral care",
+        "Stop antibiotics early"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Best way to assess whether a patient uses an inhaler correctly:",
+      "options": [
+        "Ask if they use it daily",
+        "Check the canister weight",
+        "Ask the patient to demonstrate their technique",
+        "Give a pamphlet only"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Long-term home oxygen therapy in COPD is commonly indicated by:",
+      "options": [
+        "SpO? ?92% at any time",
+        "Resting SpO? ?88% or PaO? ?55 mmHg",
+        "Dyspnoea on exertion",
+        "Night cough"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Cardiovascular) In suspected ACS, the initial priority is to:",
+      "options": [
+        "Give routine oxygen",
+        "Give morphine immediately",
+        "Obtain a 12-lead ECG as soon as possible",
+        "Start thrombolysis immediately"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which symptom best indicates worsening left-sided heart failure?",
+      "options": [
+        "Stable mild ankle oedema",
+        "Orthopnoea (needs multiple pillows)",
+        "Decreased appetite",
+        "Constipation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Non-selective beta-blockers must be used with particular caution in:",
+      "options": [
+        "Hypertension",
+        "Active asthma with wheeze",
+        "Type 2 diabetes",
+        "Hypothyroidism"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Standard antiplatelet strategy after coronary stent placement is:",
+      "options": [
+        "Warfarin alone",
+        "Aspirin alone",
+        "Dual antiplatelet therapy (aspirin + P2Y12 inhibitor)",
+        "No antiplatelet therapy needed"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Sublingual glyceryl trinitrate (GTN) teaching should include:",
+      "options": [
+        "Sit down when taking to avoid postural hypotension",
+        "Must be taken fasting only",
+        "May repeat unlimited times",
+        "Chew the tablet for faster effect"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Endocrine) Compared with DKA, HHS is characterised by:",
+      "options": [
+        "Marked ketoacidosis",
+        "Hypoglycaemia",
+        "Very high glucose/osmolality with minimal ketones",
+        "Metabolic alkalosis"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A person with T2DM on metformin has acute gastroenteritis with dehydration. Best action?",
+      "options": [
+        "Continue the usual dose",
+        "Consider temporarily holding metformin while dehydrated; rehydrate",
+        "Double the dose",
+        "Take with sodium bicarbonate"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "First-line for a conscious adult with hypoglycaemia (3.2 mmol/L):",
+      "options": [
+        "50% dextrose IV",
+        "IM glucagon",
+        "15-20 g fast-acting carbohydrate; recheck in 15 minutes",
+        "Call a code and wait"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Classic features of hypothyroidism include:",
+      "options": [
+        "Heat intolerance, tachycardia",
+        "Cold intolerance, weight gain, bradycardia",
+        "Diarrhoea",
+        "Warm moist skin"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Abrupt cessation after long-term glucocorticoid use risks:",
+      "options": [
+        "Adrenal insufficiency",
+        "Hypokalaemia",
+        "Thyrotoxicosis",
+        "Hypocalcaemia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(GI) Upper GI bleed-initial priorities include:",
+      "options": [
+        "Discharge with oral PPI",
+        "NBM, two large-bore IVs, resuscitation",
+        "Give codeine only",
+        "Immediate colonoscopy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In possible IBS, which red flag warrants further work-up?",
+      "options": [
+        "Unintentional weight loss",
+        "Bloating after meals",
+        "Intermittent crampy pain",
+        "Pain relieved by defecation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Early management for acute pancreatitis should include:",
+      "options": [
+        "High-fat diet",
+        "Routine antibiotics for all",
+        "NBM, aggressive IV fluids, analgesia",
+        "Laxatives to stimulate bowels"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "(Renal/Urinary) Which finding is most consistent with pyelonephritis?",
+      "options": [
+        "Suprapubic tenderness only",
+        "Fever/chills with costovertebral angle tenderness",
+        "Painless haematuria only",
+        "Anuria without fever"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which situation most likely causes pre-renal AKI?",
+      "options": [
+        "Sepsis with hypotension",
+        "Ureteric obstruction",
+        "Aminoglycoside toxicity",
+        "Polycystic kidney disease"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "After TURP with continuous bladder irrigation, an expected early finding is:",
+      "options": [
+        "Clear urine immediately",
+        "Light pink urine that gradually clears",
+        "No urine output for 2 hours",
+        "Persistent large clots"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "UTI prevention education for women includes:",
+      "options": [
+        "Wipe back-to-front",
+        "Void after intercourse; maintain adequate hydration",
+        "Fluid restriction",
+        "Routine spermicide use"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Reproductive) The classic triad of ectopic pregnancy is:",
+      "options": [
+        "Amenorrhoea, abdominal pain, vaginal bleeding",
+        "Fever, flank pain, dysuria",
+        "Pruritus, discharge, dyspareunia",
+        "Nausea, vomiting, diarrhoea"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Combined oral contraceptive is contraindicated with:",
+      "options": [
+        "BMI 27",
+        "Migraine with aura",
+        "Nulliparity",
+        "Age 22, non-smoker"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A painless genital ulcer suggests:",
+      "options": [
+        "Gonorrhoea",
+        "Chlamydia",
+        "Syphilis (chancre)",
+        "Trichomonas"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Testicular torsion-priority action:",
+      "options": [
+        "Ice and elevation at home",
+        "Oral antibiotics",
+        "Urgent urology/surgical assessment",
+        "Analgesia and review tomorrow"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "(Neuro) For eligible acute ischaemic stroke within the time window, consider:",
+      "options": [
+        "Heparin bolus",
+        "tPA per protocol",
+        "Warfarin",
+        "Aspirin only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "To help reduce raised ICP, which should be avoided?",
+      "options": [
+        "Head midline, head-of-bed 30",
+        "Frequent clustered suctioning",
+        "Quiet environment",
+        "Adequate analgesia/sedation as ordered"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Neuro) During a tonic-clonic seizure, your first priority is to:",
+      "options": [
+        "Restrain limbs",
+        "Insert an oral airway",
+        "Protect head, time the seizure, recovery position post-ictal",
+        "Hold the tongue"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "A cardinal feature of Parkinson's disease is:",
+      "options": [
+        "Spasticity",
+        "Resting tremor with bradykinesia/rigidity",
+        "Flaccid paralysis",
+        "Hyperreflexia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Integumentary) Best practice to prevent pressure injuries:",
+      "options": [
+        "Massage reddened areas",
+        "Reposition at least 2-hourly; offload heels; manage moisture",
+        "Keep head of bed at 45 all day",
+        "Restrict protein"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "First aid for a thermal burn:",
+      "options": [
+        "Apply ice directly",
+        "Cool running water for 20 minutes, remove jewellery, cover with cling film",
+        "Apply butter",
+        "Pop blisters"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Infection/Immune) A key sign of meningococcal meningitis is:",
+      "options": [
+        "Non-blanching petechial/purpuric rash with fever and neck stiffness",
+        "Painless ulcers",
+        "Itchy vesicles",
+        "Chronic cough"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The infectious period for measles is from:",
+      "options": [
+        "After rash only",
+        "4 days before to 5 days after rash onset",
+        "First 24 hours only",
+        "Convalescence only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which condition requires contact precautions?",
+      "options": [
+        "TB",
+        "Influenza",
+        "MRSA wound/impetigo",
+        "Measles"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Norovirus control focuses on:",
+      "options": [
+        "Prophylactic antibiotics",
+        "Strict hand hygiene and isolation until 48 h after last symptoms",
+        "Steroids",
+        "IV antivirals"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Musculoskeletal) An early complication of femoral shaft fracture is:",
+      "options": [
+        "Fat embolism",
+        "CVA",
+        "Hypoglycaemia",
+        "Hyponatraemia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "After posterior-approach hip arthroplasty, avoid:",
+      "options": [
+        "Hip flexion >90, adduction, internal rotation",
+        "Neutral alignment",
+        "Abduction pillow",
+        "Head of bed 30"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Public Health/Epidemiology) Which Ottawa Charter action area builds knowledge/skills?",
+      "options": [
+        "Reorient health services",
+        "Develop personal skills",
+        "Strengthen community action",
+        "Build healthy public policy"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Herd immunity concept:",
+      "options": [
+        "Protects only vaccinated individuals",
+        "High coverage reduces transmission, protecting those who can't be vaccinated",
+        "Only for non-respiratory diseases",
+        "Replaces vaccination"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Screening vs diagnosis-correct statement:",
+      "options": [
+        "Screening identifies asymptomatic risk or disease for further testing",
+        "Screening confirms disease",
+        "They are the same",
+        "Diagnosis has no false positives"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Assessment) After securing the Airway in ABCDE, next step is:",
+      "options": [
+        "Disability",
+        "Breathing assessment and support",
+        "Circulation",
+        "Exposure"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "In ISBAR, the \"B\" stands for:",
+      "options": [
+        "Background",
+        "Body",
+        "Baseline",
+        "Balance"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In PQRSTU pain assessment, \"Q\" stands for:",
+      "options": [
+        "Quality (e.g., sharp, dull)",
+        "Quantity",
+        "Quiescence",
+        "Quickness"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Management/Sepsis) The evidence-based sepsis bundle includes:",
+      "options": [
+        "Delay antibiotics until cultures result",
+        "Obtain cultures promptly, then early broad-spectrum antibiotics and fluids",
+        "Routine steroids for all",
+        "Immediate diuretics"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Priority treatment in anaphylaxis:",
+      "options": [
+        "Antihistamines only",
+        "IM adrenaline promptly; airway/oxygen/IV fluids",
+        "Steroids only",
+        "Nebulised saline"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Prevention/Lifespan) Falls prevention on the ward includes:",
+      "options": [
+        "Bed high; call bell out of reach",
+        "Low bed; call bell within reach; non-slip footwear; clear environment",
+        "Lights off at all times",
+        "Fluid restriction"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Safe infant sleep:",
+      "options": [
+        "Prone sleeping",
+        "Supine, own sleep space, smoke-free, firm mattress",
+        "Soft pillows and quilts",
+        "Bed-sharing with heavy duvets"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Mental Health) Suicidal ideation with a plan-best immediate nursing action:",
+      "options": [
+        "Promise secrecy",
+        "Complete risk assessment, ensure safety, engage supports",
+        "Tell them to cheer up",
+        "Delay action"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Lithium education should include:",
+      "options": [
+        "No blood tests needed",
+        "Maintain hydration; monitor for toxicity (tremor, GI upset)",
+        "Safe during severe dehydration",
+        "NSAIDs have no interaction"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Common early SSRI side effects:",
+      "options": [
+        "Severe hypertension",
+        "GI upset, sleep change, headache",
+        "Alopecia",
+        "Hypoglycaemia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Cultural Safety/Equity) Cultural safety is determined by:",
+      "options": [
+        "The nurse",
+        "The patient/wh?nau",
+        "The manager",
+        "Policy only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Te Whare Tapa Wh? includes:",
+      "options": [
+        "Financial well-being only",
+        "Taha wairua (spiritual)",
+        "Physical only",
+        "Family only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Te Tiriti o Waitangi principle focused on outcome fairness is:",
+      "options": [
+        "Options",
+        "Equity",
+        "Participation only",
+        "None"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Care Settings) Which is primary care?",
+      "options": [
+        "ICU ventilation",
+        "GP clinic smoking-cessation counselling",
+        "Cardiac catheterisation",
+        "Major surgery"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which is secondary care?",
+      "options": [
+        "Community pharmacy advice",
+        "Hospital admission under a specialist team",
+        "Public health campaign",
+        "School screening"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which is tertiary care?",
+      "options": [
+        "Neurosurgery at a regional centre",
+        "GP blood-pressure check",
+        "District nursing wound care",
+        "Pharmacy vaccination"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Professional Responsibility) Under the HDC Code of Rights, Right 7 is:",
+      "options": [
+        "Effective communication",
+        "Informed choice and informed consent",
+        "Dignity and independence",
+        "Right to complain"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Privacy/Law) For notifiable privacy breaches in NZ, the obligation is to:",
+      "options": [
+        "Ignore minor breaches",
+        "Notify the Privacy Commissioner",
+        "Tell the media",
+        "Delete the record quietly"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "The HPCA Act's main purpose is to:",
+      "options": [
+        "Promote unions",
+        "Protect the public by ensuring practitioners are competent/fit to practise",
+        "Fund hospitals",
+        "Punish patients"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Medication Safety) Which is not a core medication administration right?",
+      "options": [
+        "Right patient",
+        "Right route",
+        "Right documentation",
+        "Right insurance"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "If a medication error occurs, the RN's first action is to:",
+      "options": [
+        "Hide it",
+        "Assess the patient and escalate per policy",
+        "Blame pharmacy",
+        "Do nothing"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Delegation) When delegating, the RN retains:",
+      "options": [
+        "No accountability",
+        "Full accountability for the delegated task",
+        "Accountability only if present",
+        "None if EN accepts"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Pharmacology) A classic sign of digoxin toxicity is:",
+      "options": [
+        "Tinnitus",
+        "Visual halos, nausea, bradycardia",
+        "Hyperglycaemia",
+        "Hypertension"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Warfarin education includes:",
+      "options": [
+        "Keep vitamin K intake consistent; INR monitoring",
+        "Double dose if missed",
+        "Avoid all green vegetables completely",
+        "No blood tests needed"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Insulin glargine is:",
+      "options": [
+        "Rapid-acting",
+        "Long-acting basal insulin",
+        "Mixed with other insulins in the same syringe",
+        "Only given IV"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Metformin should be held/used with caution in:",
+      "options": [
+        "Mild cold",
+        "Severe renal impairment or dehydration (risk lactic acidosis)",
+        "After meals only",
+        "Underweight patients only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Aminoglycosides are associated with:",
+      "options": [
+        "Hepatotoxicity only",
+        "Ototoxicity and nephrotoxicity",
+        "Constipation",
+        "Hyperglycaemia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Prioritisation) Who should the nurse see first?",
+      "options": [
+        "Asthma patient speaking full sentences with mild wheeze",
+        "Post-op day 1, pain 6/10, vitals stable",
+        "Crushing chest pain 8/10, pale and diaphoretic",
+        "Request for dressing change"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which order should be questioned?",
+      "options": [
+        "KCl 40 mmol IV over 1 hour via peripheral line without a pump",
+        "Heparin infusion per protocol",
+        "Enoxaparin SC",
+        "Cefazolin IVPB"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Fire on the ward-first RACE step is to:",
+      "options": [
+        "Extinguish",
+        "Alarm",
+        "Rescue anyone in immediate danger",
+        "Contain"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "First-line for agitation/de-escalation:",
+      "options": [
+        "Stand over the patient",
+        "Calm voice, maintain distance, active listening",
+        "Immediate restraint",
+        "Shout commands"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Interprofessional) In ISBAR, \"A-Assessment\" should include:",
+      "options": [
+        "Your roster",
+        "What you think is happening, what you've done, and what is needed next",
+        "Favourite foods",
+        "Social chat"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Motivational interviewing emphasises:",
+      "options": [
+        "Closed questions only",
+        "OARS: Open questions, Affirm, Reflect, Summarise",
+        "Confront and correct",
+        "Lecture extensively"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "To confirm patient understanding, use:",
+      "options": [
+        "Teach-back",
+        "Give a pamphlet only",
+        "Medical jargon",
+        "Rush the discussion"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Pregnancy/Child Health) Folic acid supplementation helps prevent:",
+      "options": [
+        "Down syndrome",
+        "Neural tube defects",
+        "Measles",
+        "Autism"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A neonatal jaundice red flag is:",
+      "options": [
+        "Day-2 mild jaundice; feeding well",
+        "Jaundice within the first 24 hours of life",
+        "Day-5 jaundice settling",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "APGAR primarily assesses:",
+      "options": [
+        "Pain",
+        "Immediate adaptation at 1 and 5 minutes",
+        "IQ",
+        "Long-term outcomes"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Resp/Cardio) Which cluster suggests acute pulmonary oedema?",
+      "options": [
+        "Severe dyspnoea, pink frothy sputum, crackles",
+        "Stridor only",
+        "Productive cough with fever",
+        "Bradycardia and dry cough"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Post-operative DVT prevention includes:",
+      "options": [
+        "Strict bed rest",
+        "Early mobilisation, leg exercises, compression stockings, anticoagulation as charted",
+        "Calf massage",
+        "Fluid restriction"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Renal) Characteristic ECG change in hyperkalaemia:",
+      "options": [
+        "Peaked T waves",
+        "U waves",
+        "ST elevation (classically MI)",
+        "PR shortening only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(GI/Nutrition) People with coeliac disease must avoid:",
+      "options": [
+        "Rice",
+        "Wheat",
+        "Corn",
+        "Potato"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Endocrine) Adrenergic symptoms of hypoglycaemia include:",
+      "options": [
+        "Polyuria",
+        "Sweating, tremor, palpitations",
+        "Constipation",
+        "Dry flushed skin"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Neuro) Delirium is best described as:",
+      "options": [
+        "Gradual decline",
+        "Acute, fluctuating disturbance in attention and cognition",
+        "Stable memory loss only",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Ethics) NZNO Code of Ethics principle closest to \"do good\" is:",
+      "options": [
+        "Justice",
+        "Beneficence",
+        "Veracity",
+        "Fidelity"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Mental Health Law) Under the MHA, Section 11 provides for:",
+      "options": [
+        "Up to 5 days' further assessment and treatment",
+        "Community treatment order",
+        "Final assessment",
+        "Initial application"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A person under the MHA retains the right to:",
+      "options": [
+        "No legal advice",
+        "Be informed about treatment and to legal advice/representation",
+        "No visitors ever",
+        "No interpreters"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Infection) TB requires which isolation?",
+      "options": [
+        "Droplet",
+        "Contact",
+        "Airborne",
+        "Protective"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "(Primary Care) In NZ \"ABC\" brief advice for smoking, the first step is:",
+      "options": [
+        "Arrange",
+        "Ask about and document smoking status",
+        "Boost confidence",
+        "Counsel only if ready"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Prevention of rheumatic fever after strep throat relies on:",
+      "options": [
+        "Warm fluids only",
+        "Timely antibiotics",
+        "Steroids only",
+        "Antihistamines"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Occupational Safety) After a sharps injury, the immediate response is to:",
+      "options": [
+        "Suck the wound",
+        "Wash the area, report immediately, follow exposure protocol",
+        "Ignore it",
+        "Apply a tight bandage"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Cardio Pharm) Which drug class can mask hypoglycaemia symptoms?",
+      "options": [
+        "ACE inhibitors",
+        "Beta-blockers",
+        "Calcium-channel blockers",
+        "Nitrates"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Beta-blockers should be used cautiously in:",
+      "options": [
+        "Asthma (risk bronchospasm)",
+        "Hypothyroidism",
+        "Acne",
+        "Mild anaemia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(GI/Neuro) A notable adverse effect of metoclopramide is:",
+      "options": [
+        "Hypercalcaemia",
+        "Extrapyramidal symptoms/acute dystonia",
+        "Alopecia",
+        "Photosensitivity"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Skin) Impetigo typically presents with:",
+      "options": [
+        "Silvery plaques",
+        "Honey-coloured crusts",
+        "Black eschar",
+        "Target lesions"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Reproductive Health) Reducing HPV risk includes:",
+      "options": [
+        "No vaccines exist",
+        "Vaccination per schedule plus safer sex practices",
+        "Antibiotics",
+        "Douching"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Neuro Rehab) A typical trigger for autonomic dysreflexia is:",
+      "options": [
+        "Hypoglycaemia",
+        "Bladder distension in SCI above T6",
+        "Hyperkalaemia",
+        "Anaemia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(MH/Legal) Under Section 111 MHA, a nurse in a hospital may:",
+      "options": [
+        "Detain a person for up to 6 hours for urgent assessment",
+        "Prescribe antipsychotics",
+        "Issue a CTO",
+        "Dismiss the application"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Cardio) Expected finding in left-sided heart failure:",
+      "options": [
+        "Peripheral oedema only",
+        "Orthopnoea and bibasal crackles",
+        "Polyuria",
+        "Bradycardia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Respiratory) Hallmark of pertussis:",
+      "options": [
+        "Paroxysms of coughing with inspiratory \"whoop\"",
+        "Painless ulcers",
+        "Vesicular rash",
+        "Arthralgia only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Renal) To reduce risk of post-contrast AKI:",
+      "options": [
+        "Withhold fluids",
+        "Ensure adequate hydration; consider holding metformin per policy",
+        "Give NSAIDs",
+        "High-protein load"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Endocrine) Typical labs in SIADH:",
+      "options": [
+        "Hypernatraemia",
+        "Hyponatraemia with low serum osmolality",
+        "Hyperkalaemia",
+        "Hypercalcaemia"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(GI/Infection) Primary transmission of hepatitis A:",
+      "options": [
+        "Blood only",
+        "Faecal-oral",
+        "Sexual only",
+        "Airborne"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Infection/Parasite) First-line treatment for scabies:",
+      "options": [
+        "Permethrin cream",
+        "Topical steroid only",
+        "Antibiotics",
+        "Nothing-self resolves in 24 h"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Ethics/Privacy) Police request patient information by phone. Best response:",
+      "options": [
+        "Provide details immediately",
+        "Decline and follow consent/privacy policy",
+        "Post on noticeboard",
+        "Read the chart aloud"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Delegation/EN Scope) Enrolled Nurses may:",
+      "options": [
+        "Plan overall care independently",
+        "Contribute to care planning under RN direction",
+        "Prescribe",
+        "Perform surgery"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Teamwork) Best approach to interprofessional conflict:",
+      "options": [
+        "Avoidance",
+        "Open, respectful communication focused on shared goals",
+        "Public accusation",
+        "Ignore"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "(Professionalism) If a colleague appears impaired at work:",
+      "options": [
+        "Ignore to be kind",
+        "Report to the charge nurse/manager per policy to protect safety",
+        "Post on social media",
+        "Confront publicly"
+      ],
+      "answer": 1
+    }
+  ]
+}
