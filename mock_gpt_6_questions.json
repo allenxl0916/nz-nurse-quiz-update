@@ -1,0 +1,1205 @@
+{
+  "name": "Mock GPT 6",
+  "questions": [
+    {
+      "question": "(Calculation) A patient requires 100 mg of Drug X. The stock solution contains 50 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 250 mg of Drug X. The stock solution contains 125 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 75 mg of Drug X. The stock solution contains 25 mg per mL. How many mL will you administer?",
+      "options": [
+        "2.9 mL",
+        "3.0 mL",
+        "3.1 mL",
+        "3.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 60 mg of Drug X. The stock solution contains 30 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 40 mg of Drug X. The stock solution contains 20 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 180 mg of Drug X. The stock solution contains 90 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 30 mg of Drug X. The stock solution contains 10 mg per mL. How many mL will you administer?",
+      "options": [
+        "2.9 mL",
+        "3.0 mL",
+        "3.1 mL",
+        "3.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 500 mg of Drug X. The stock solution contains 100 mg per mL. How many mL will you administer?",
+      "options": [
+        "4.9 mL",
+        "5.0 mL",
+        "5.1 mL",
+        "5.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 225 mg of Drug X. The stock solution contains 75 mg per mL. How many mL will you administer?",
+      "options": [
+        "2.9 mL",
+        "3.0 mL",
+        "3.1 mL",
+        "3.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 90 mg of Drug X. The stock solution contains 45 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 120 mg of Drug X. The stock solution contains 60 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "(Calculation) A patient requires 200 mg of Drug X. The stock solution contains 100 mg per mL. How many mL will you administer?",
+      "options": [
+        "1.9 mL",
+        "2.0 mL",
+        "2.1 mL",
+        "2.2 mL"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following best describes the principle of informed consent?",
+      "options": [
+        "The patient understands, appreciates and voluntarily agrees to the proposed treatment",
+        "The nurse has explained the procedure using medical jargon",
+        "Consent is implied when the patient signs the admission form",
+        "Consent is unnecessary for routine nursing tasks"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In the postpartum period, a fundus that is boggy and deviated to the right most likely indicates:",
+      "options": [
+        "A distended bladder",
+        "Normal involution",
+        "Retained placental fragments",
+        "Imminent hemorrhage"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary purpose of a peak expiratory flow meter in asthma management?",
+      "options": [
+        "To measure the patient's maximum speed of exhalation to monitor airway obstruction",
+        "To deliver bronchodilator medication",
+        "To calculate oxygen saturation",
+        "To measure respiratory rate"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which intervention is appropriate to promote cultural safety in nursing practice?",
+      "options": [
+        "Encourage the patient to explain their cultural values and incorporate them into care plans",
+        "Assume all members of a culture share the same beliefs",
+        "Avoid discussing cultural issues to prevent discomfort",
+        "Replace traditional practices with Western medical procedures"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When administering IV potassium chloride, the nurse should:",
+      "options": [
+        "Dilute it in a large volume of fluid and infuse via a pump",
+        "Administer it undiluted via IV push",
+        "Mix it with dextrose and give intramuscularly",
+        "Add it directly to a bag of antibiotics and run quickly"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A child presenting with barking cough, stridor, and respiratory distress likely has:",
+      "options": [
+        "Croup (laryngotracheobronchitis)",
+        "Bronchiolitis",
+        "Asthma",
+        "Epiglottitis"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a symptom of hypoglycemia?",
+      "options": [
+        "Sweating and tremors",
+        "Dry mouth and excessive thirst",
+        "Deep, rapid respirations",
+        "Flushed, warm skin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The best position for a client experiencing late decelerations during labour is:",
+      "options": [
+        "Left lateral to improve placental perfusion",
+        "Supine with legs elevated",
+        "High Fowler's position",
+        "Prone to relieve pressure"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the correct sequence for donning personal protective equipment (PPE)?",
+      "options": [
+        "Gown, mask or respirator, goggles or face shield, gloves",
+        "Mask, gown, gloves, goggles",
+        "Gloves, gown, goggles, mask",
+        "Goggles, gloves, gown, mask"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which electrolyte imbalance is most likely to cause cardiac arrhythmias?",
+      "options": [
+        "Hyperkalemia",
+        "Hypocalcemia",
+        "Hypophosphatemia",
+        "Hypermagnesemia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A nurse notices that a colleague frequently documents vital signs without actually taking them. This is an example of:",
+      "options": [
+        "Unprofessional and unsafe practice that should be reported",
+        "Efficient use of time and resources",
+        "Scope-of-practice variation",
+        "A common documentation error that can be corrected later"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When educating a client about warfarin therapy, the nurse should instruct them to:",
+      "options": [
+        "Maintain a consistent intake of vitamin K",
+        "Take aspirin for pain relief",
+        "Avoid all green leafy vegetables",
+        "Double the dose if one is missed"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which symptom is most indicative of depression?",
+      "options": [
+        "Persistent feelings of sadness and loss of interest",
+        "Acute episodes of euphoria",
+        "Auditory hallucinations",
+        "Manic episodes with decreased need for sleep"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A normal Apgar score at 1 minute after birth ranges between:",
+      "options": [
+        "7 and 10",
+        "0 and 3",
+        "3 and 5",
+        "11 and 14"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which nursing action helps prevent ventilator-associated pneumonia?",
+      "options": [
+        "Elevating the head of the bed to 30-45 degrees",
+        "Administering broad-spectrum antibiotics prophylactically",
+        "Limiting oral care to once daily",
+        "Using sterile saline to clean the ventilator tubing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A client with chronic renal failure is at risk for osteodystrophy due to:",
+      "options": [
+        "Impaired activation of vitamin D",
+        "Excessive production of erythropoietin",
+        "Hyperinsulinemia",
+        "Increased albumin levels"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement about confidentiality under the Privacy Act is correct?",
+      "options": [
+        "Nurses must protect client information unless disclosure is permitted by law",
+        "Family members can always access a patient's records with verbal consent",
+        "Only written records are confidential; verbal exchanges are not covered",
+        "Confidentiality applies only to physical health information"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Signs of increased intracranial pressure include:",
+      "options": [
+        "Projectile vomiting and decreased level of consciousness",
+        "Bradycardia and hypotension",
+        "Hyperactivity and agitation",
+        "Diarrhea and vomiting"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Effective strategies for smoking cessation include:",
+      "options": [
+        "Nicotine replacement therapy and behavioural counselling",
+        "Abrupt withdrawal of all medications",
+        "Encouraging smoking as a stress reliever",
+        "Only using hypnosis"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The legal term 'negligence' refers to:",
+      "options": [
+        "Failure to act as a reasonably prudent nurse would under similar circumstances",
+        "Documenting care after it is provided",
+        "Providing care beyond one's scope of practice",
+        "Refusing to follow a physician's order"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which vaccine is recommended during pregnancy to protect newborns from pertussis?",
+      "options": [
+        "Tdap (tetanus, diphtheria, acellular pertussis) vaccine",
+        "MMR (measles, mumps, rubella) vaccine",
+        "Varicella vaccine",
+        "Influenza live attenuated vaccine"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following interventions best prevents pressure injuries?",
+      "options": [
+        "Repositioning the client at least every two hours",
+        "Keeping the skin moist and warm",
+        "Using plastic sheets to protect linens",
+        "Avoiding protein-rich foods"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A child with a high-pitched cry, irritability, and poor feeding shortly after birth may be experiencing:",
+      "options": [
+        "Neonatal abstinence syndrome",
+        "Down syndrome",
+        "Spina bifida",
+        "Transient tachypnea"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which infection is most commonly associated with the development of rheumatic fever?",
+      "options": [
+        "Group A beta-hemolytic Streptococcus",
+        "Staphylococcus aureus",
+        "Mycobacterium tuberculosis",
+        "Escherichia coli"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When caring for a client with right-sided heart failure, the nurse expects to see:",
+      "options": [
+        "Peripheral edema and jugular venous distension",
+        "Pulmonary congestion and crackles",
+        "Tachycardia and hypertension",
+        "Increased urinary output"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which ethical principle involves promoting good and acting in the best interest of the client?",
+      "options": [
+        "Beneficence",
+        "Autonomy",
+        "Justice",
+        "Non-maleficence"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A client states they feel overwhelmed and cannot cope with caring for their newborn. The best nursing response is to:",
+      "options": [
+        "Explore available support systems and encourage seeking help",
+        "Tell them they will feel better once they sleep more",
+        "Advise them to stop breastfeeding to reduce stress",
+        "Suggest they return to work immediately"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following foods should be avoided in clients taking monoamine oxidase inhibitors (MAOIs)?",
+      "options": [
+        "Aged cheese and cured meats",
+        "Fresh fruits and vegetables",
+        "Lean poultry",
+        "Low-fat milk"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which intervention is priority when a client is having a tonic-clonic seizure?",
+      "options": [
+        "Protect the client from injury by ensuring a safe environment",
+        "Insert a tongue depressor between the teeth",
+        "Restrain the client's limbs to prevent injury",
+        "Offer oral airway"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the term 'sentinel event' refer to in healthcare?",
+      "options": [
+        "An unexpected occurrence involving death or serious physical or psychological injury",
+        "A routine outcome documented in patient records",
+        "Any event reported to the Ministry of Health",
+        "A planned procedure requiring special consent"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a sign of lithium toxicity?",
+      "options": [
+        "Coarse hand tremor and confusion",
+        "Increased urination and thirst",
+        "Mild nausea",
+        "Constipation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary effect of an anticholinergic medication?",
+      "options": [
+        "Inhibition of parasympathetic nervous system responses",
+        "Stimulation of the parasympathetic nervous system",
+        "Blocking alpha-adrenergic receptors",
+        "Enhancing cholinergic activity"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In New Zealand, what document outlines a patient's right to receive information and to give informed consent?",
+      "options": [
+        "The Code of Health and Disability Services Consumers' Rights",
+        "The Privacy Act 1993",
+        "The Human Rights Act 1993",
+        "The Crimes Act 1961"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which nursing intervention helps reduce the risk of deep vein thrombosis (DVT) in postoperative patients?",
+      "options": [
+        "Early ambulation and leg exercises",
+        "Applying ice packs to the legs",
+        "Encouraging a high-protein diet",
+        "Restricting fluids"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement best describes a therapeutic communication technique?",
+      "options": [
+        "Active listening and reflecting the client's feelings",
+        "Giving advice to solve the client's problem",
+        "Changing the subject to lighten the mood",
+        "Using closed-ended questions"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of using a pain scale in assessment?",
+      "options": [
+        "To quantify the client's pain intensity and guide treatment",
+        "To compare the client's pain with others' experiences",
+        "To identify if the client is exaggerating symptoms",
+        "To determine the cause of pain"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following indicates a potential complication of central venous catheter insertion?",
+      "options": [
+        "Shortness of breath and chest pain indicating a possible pneumothorax",
+        "Mild soreness at the insertion site",
+        "Bruising around the catheter site",
+        "A small amount of blood in the catheter tubing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "During a blood transfusion, a client develops fever, chills, and back pain. The nurse's first action is to:",
+      "options": [
+        "Stop the transfusion immediately and maintain IV access with normal saline",
+        "Give an antipyretic and continue the transfusion",
+        "Notify the physician after completing the transfusion",
+        "Reduce the transfusion rate and monitor"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A nurse is preparing to administer intramuscular medication to an adult. Which site is preferred?",
+      "options": [
+        "Ventrogluteal muscle",
+        "Dorsogluteal muscle",
+        "Deltoid muscle",
+        "Rectus femoris muscle"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an early sign of shock?",
+      "options": [
+        "Tachycardia and cool, clammy skin",
+        "Hypertension and flushed skin",
+        "Bradycardia and cyanosis",
+        "Bounding pulse and warm skin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A client receiving digoxin reports seeing yellow halos around lights. The nurse should suspect:",
+      "options": [
+        "Digoxin toxicity",
+        "Normal age-related changes",
+        "Hypercalcemia",
+        "Cataracts"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is part of the FAST assessment for stroke recognition?",
+      "options": [
+        "Face drooping, Arm weakness, Speech difficulty, Time to call emergency services",
+        "Flexibility, Appetite, Sleep, Tremors",
+        "Frequency, Appearance, Size, Temperature",
+        "Fever, Alertness, Skin, Turgor"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When performing chest compressions during adult CPR, the nurse should compress to a depth of:",
+      "options": [
+        "At least 5 cm (2 inches)",
+        "At least 10 cm (4 inches)",
+        "At least 2 cm (0.8 inches)",
+        "At least 8 cm (3 inches)"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which type of isolation precaution is required for a client with open, draining MRSA wounds?",
+      "options": [
+        "Contact precautions with gloves and gown",
+        "Droplet precautions with mask",
+        "Airborne precautions with respirator",
+        "Standard precautions only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement about insulin glargine (Lantus) is correct?",
+      "options": [
+        "It is a long-acting insulin with no pronounced peak",
+        "It is rapid-acting and peaks in 30 minutes",
+        "It must be mixed with NPH insulin",
+        "It is given immediately after meals"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A patient with COPD is at risk for respiratory acidosis because of:",
+      "options": [
+        "Hypoventilation leading to CO\u2082 retention",
+        "Hyperventilation leading to CO\u2082 loss",
+        "Decreased HCO\u2083\u207b excretion by the kidneys",
+        "Metabolic acidosis from lactic acid accumulation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When using the Glasgow Coma Scale, a score of 8 indicates:",
+      "options": [
+        "A severe head injury and coma",
+        "Normal neurological function",
+        "Mild concussion",
+        "Brain death"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary rationale for encouraging early mobilization after surgery?",
+      "options": [
+        "To reduce the risk of thromboembolism and improve respiratory function",
+        "To decrease postoperative pain levels",
+        "To speed the wound healing process",
+        "To reduce the amount of anesthesia in the body"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In therapeutic communication, which of the following responses is most appropriate when a client expresses feelings of sadness?",
+      "options": [
+        "'I can see this is really hard for you. Tell me more about what you're feeling.'",
+        "'Don't worry; everything will be fine soon.'",
+        "'You should focus on the positive aspects.'",
+        "'Let's talk about something more cheerful.'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which medication should be withheld if a client's heart rate is less than 60 beats per minute?",
+      "options": [
+        "Beta-blocker such as metoprolol",
+        "Antibiotic such as amoxicillin",
+        "NSAID such as ibuprofen",
+        "Antacid such as omeprazole"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the goal of primary prevention in public health?",
+      "options": [
+        "To prevent the onset of disease by reducing risk factors",
+        "To detect disease early through screening",
+        "To reduce the impact of disease after it occurs",
+        "To provide rehabilitation and support"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is characteristic of a Stage 2 pressure injury?",
+      "options": [
+        "Partial-thickness skin loss with exposed dermis",
+        "Intact skin with non-blanchable redness",
+        "Full-thickness skin loss with exposed bone",
+        "Eschar obscuring the wound bed"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A client is receiving TPN (total parenteral nutrition) via a central line. The nurse should monitor for what complication?",
+      "options": [
+        "Infection and sepsis due to catheter use",
+        "Hyperthermia due to increased metabolism",
+        "Hypoglycemia due to high glucose content",
+        "Diarrhea due to hyperosmolar solution"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which nursing action promotes sleep for a hospitalized client?",
+      "options": [
+        "Reducing noise and light in the environment at night",
+        "Scheduling frequent vital sign checks at midnight",
+        "Providing caffeinated beverages before bedtime",
+        "Encouraging daytime naps lasting several hours"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following best describes an advance directive?",
+      "options": [
+        "A legal document that states a person's healthcare preferences should they become unable to communicate",
+        "A verbal agreement between nurse and patient regarding future care",
+        "A doctor's order for life-sustaining treatment",
+        "A consent form for surgical procedures"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sign is most typical of hyperthyroidism (Graves' disease)?",
+      "options": [
+        "Weight loss despite increased appetite",
+        "Weight gain and hair loss",
+        "Bradycardia and cold intolerance",
+        "Decreased bowel movements"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A patient with a head injury has clear fluid leaking from the nose. The nurse suspects cerebrospinal fluid. Which test can confirm this?",
+      "options": [
+        "Test for glucose using a dipstick",
+        "Observe for a metallic taste",
+        "Perform a white blood cell count",
+        "Check pH with litmus paper"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a key role of the Nursing Council of New Zealand?",
+      "options": [
+        "Regulating nurses' practice to ensure public safety",
+        "Providing direct clinical care in hospitals",
+        "Delivering tertiary nursing education programs",
+        "Managing hospital budgets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which procedure requires sterile technique?",
+      "options": [
+        "Insertion of a urinary catheter",
+        "Taking a blood pressure reading",
+        "Feeding via a nasogastric tube",
+        "Administering oral medications"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a component of therapeutic boundaries?",
+      "options": [
+        "Maintaining a professional distance and avoiding dual relationships",
+        "Sharing personal problems with the patient to build rapport",
+        "Accepting gifts of significant value",
+        "Providing care outside of scheduled hours without documentation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which laboratory value indicates kidney impairment?",
+      "options": [
+        "Elevated serum creatinine",
+        "Low serum potassium",
+        "High hemoglobin",
+        "Low albumin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A nurse is providing discharge teaching for a client on steroid therapy. Which instruction is appropriate?",
+      "options": [
+        "Do not stop the medication abruptly; taper gradually",
+        "Take the medication on an empty stomach",
+        "Avoid all sources of vitamin D",
+        "Expect increased energy and weight loss"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sign or symptom is commonly associated with postpartum depression?",
+      "options": [
+        "Feelings of hopelessness and lack of interest in the baby",
+        "Transient tearfulness for a few days after birth",
+        "Delusions of grandeur",
+        "Excessive energy and manic behaviour"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which assessment is priority when a patient is receiving magnesium sulfate for preeclampsia?",
+      "options": [
+        "Deep tendon reflexes and respiratory rate",
+        "Blood pressure and pulse only",
+        "Urine specific gravity",
+        "Fetal heart rate"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A client reports sudden onset of severe chest pain radiating to the left arm and jaw. The nurse should first:",
+      "options": [
+        "Call emergency services and initiate MONA (morphine, oxygen, nitrates, aspirin)",
+        "Ask the client to describe the pain in more detail",
+        "Perform a 12-lead ECG",
+        "Administer nitroglycerin and wait for results"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following disorders is characterized by an autoimmune destruction of pancreatic beta cells?",
+      "options": [
+        "Type 1 diabetes mellitus",
+        "Type 2 diabetes mellitus",
+        "Cushing's syndrome",
+        "Addison's disease"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which action is appropriate when using an interpreter to obtain a patient's health history?",
+      "options": [
+        "Speak directly to the patient and maintain eye contact",
+        "Only address the interpreter and ignore the patient",
+        "Ask family members to interpret sensitive information",
+        "Use technical terms to ensure accuracy"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an early sign of hypoxia?",
+      "options": [
+        "Restlessness and confusion",
+        "Cyanosis and cool skin",
+        "Decreased blood pressure",
+        "Decreased heart rate"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which imaging modality is safest for a pregnant patient requiring abdominal imaging?",
+      "options": [
+        "Ultrasound",
+        "CT scan",
+        "X-ray",
+        "PET scan"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When administering ear drops to an adult, the nurse should pull the auricle:",
+      "options": [
+        "Up and back to straighten the ear canal",
+        "Down and back to straighten the ear canal",
+        "Forward and down",
+        "Backward and upward"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the priority nursing action when a patient's wound eviscerates?",
+      "options": [
+        "Cover the organs with sterile saline-soaked gauze and notify the surgeon",
+        "Push the organs back into the abdomen",
+        "Leave the wound open to air and monitor",
+        "Apply a dry sterile dressing and tape tightly"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which intervention is part of evidence-based falls prevention?",
+      "options": [
+        "Assessing each patient for risk factors and implementing individualized interventions",
+        "Applying physical restraints to all elderly patients",
+        "Encouraging patients to stay in bed as much as possible",
+        "Using bed alarms only at night"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The 'Five Rights' of medication administration include right medication, right dose, right time, right route, and:",
+      "options": [
+        "Right patient",
+        "Right cost",
+        "Right diagnosis",
+        "Right to refuse"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a normal finding in a newborn?",
+      "options": [
+        "Milia on the nose",
+        "Bulging fontanelles",
+        "Bluish discoloration of the lips",
+        "Absence of root reflex"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the recommended treatment for anaphylactic shock?",
+      "options": [
+        "Intramuscular injection of epinephrine",
+        "Oral antihistamines",
+        "Corticosteroid creams",
+        "Nebulized albuterol"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which method best verifies placement of a nasogastric tube before initiating feeding?",
+      "options": [
+        "X-ray confirmation",
+        "Auscultating air insufflation over the stomach",
+        "Observing absence of coughing",
+        "Checking for gastric content pH"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the primary reason to administer Rho(D) immune globulin (RhoGAM) to Rh-negative mothers?",
+      "options": [
+        "To prevent hemolytic disease of the newborn in future pregnancies",
+        "To treat existing Rh sensitization",
+        "To increase the mother's antibody production",
+        "To prevent postpartum hemorrhage"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement best describes the purpose of a living will?",
+      "options": [
+        "It outlines the client's wishes regarding medical treatment if they become incapacitated",
+        "It designates a person to make decisions on behalf of the client",
+        "It distributes the client's property after death",
+        "It authorizes the doctor to act as the client's agent"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following symptoms suggests dehydration in an elderly client?",
+      "options": [
+        "Decreased urine output and dry mucous membranes",
+        "Bradycardia and hypertension",
+        "Excessive perspiration and salivation",
+        "Edema and ascites"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In which situation is it appropriate to break client confidentiality?",
+      "options": [
+        "When there is a duty to warn of imminent harm to the client or others",
+        "When a relative asks about the client's condition",
+        "If the client is non-compliant with treatment",
+        "To share interesting cases with peers"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which manifestation is consistent with fluid volume overload?",
+      "options": [
+        "Dyspnea, bounding pulses, and hypertension",
+        "Thirst, dry mucous membranes, and weak pulses",
+        "Flat neck veins and hypotension",
+        "Weight loss and tachycardia"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the antidote for opioid overdose?",
+      "options": [
+        "Naloxone (Narcan)",
+        "Flumazenil (Romazicon)",
+        "Protamine sulfate",
+        "Vitamin K"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following activities is within the enrolled nurse's scope of practice in New Zealand?",
+      "options": [
+        "Providing delegated nursing care under the direction of a registered nurse",
+        "Independently diagnosing and prescribing treatments",
+        "Performing surgical procedures",
+        "Assigning tasks to registered nurses"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "During a postpartum assessment, which finding should be reported to the healthcare provider?",
+      "options": [
+        "Heavy lochia with large clots and foul odour",
+        "Uterus firm and midline",
+        "Mild cramping",
+        "Breasts filling with milk"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which client is at highest risk for developing a pressure injury?",
+      "options": [
+        "An immobile elderly client with urinary incontinence",
+        "A middle-aged client undergoing physical therapy",
+        "A teenager admitted for appendectomy",
+        "A healthy postpartum woman"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the initial management for a conscious choking adult?",
+      "options": [
+        "Perform abdominal thrusts until the obstruction is relieved",
+        "Begin chest compressions immediately",
+        "Give sips of water to clear the throat",
+        "Perform a blind finger sweep"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sign suggests a newborn is experiencing hypothermia?",
+      "options": [
+        "Cold, mottled skin and lethargy",
+        "Red skin and high-pitched cry",
+        "Rapid breathing and fever",
+        "Restlessness and warm skin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which laboratory test is used to monitor the effectiveness of heparin therapy?",
+      "options": [
+        "Activated partial thromboplastin time (aPTT)",
+        "Prothrombin time (PT)",
+        "International normalized ratio (INR)",
+        "Platelet count"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "In therapeutic communication, what does SOLER stand for?",
+      "options": [
+        "Sit squarely, Open posture, Lean in, Eye contact, Relax",
+        "Stand up, Offer solutions, Listen, Evaluate, Respond",
+        "Smile, Offer to help, Laugh, Encourage, Reinforce",
+        "Sit, Observe, Label feelings, Explain, Reassure"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which symptom is characteristic of pancreatitis?",
+      "options": [
+        "Severe epigastric pain radiating to the back and relieved by leaning forward",
+        "Right upper quadrant pain radiating to the shoulder",
+        "Mild abdominal discomfort relieved by eating",
+        "Left lower quadrant cramping"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which is the most effective strategy to reduce catheter-associated urinary tract infections (CAUTIs)?",
+      "options": [
+        "Remove the catheter as soon as possible and perform daily hygiene",
+        "Routinely irrigate the catheter with antibiotic solution",
+        "Maintain the catheter bag above the level of the bladder",
+        "Use large-bore catheters for all patients"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following best describes palliative care?",
+      "options": [
+        "Holistic care aimed at improving quality of life for patients with serious illness",
+        "Treatment focused solely on curing disease",
+        "Providing end-of-life care only",
+        "Restricting the use of pain medications to avoid addiction"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The correct ratio of chest compressions to breaths for a single rescuer performing CPR on an infant is:",
+      "options": [
+        "30 compressions to 2 breaths",
+        "15 compressions to 2 breaths",
+        "5 compressions to 1 breath",
+        "60 compressions to 2 breaths"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement about the Treaty of Waitangi's relevance to nursing practice is correct?",
+      "options": [
+        "It guides nurses to provide care that respects the principles of partnership, participation, and protection",
+        "It is a historical document with no current relevance to healthcare",
+        "It requires nurses to provide preferential treatment to M\u0101ori over other cultures",
+        "It applies only to doctors and not to nurses"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A pregnant woman asks whether she can take an over-the-counter herbal supplement. The best response is:",
+      "options": [
+        "Consult with your healthcare provider before taking any supplements",
+        "Herbal supplements are always safe because they are natural",
+        "You can take supplements as long as they contain vitamin C",
+        "Stop taking any prescribed medications and switch to herbal remedies"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When a patient is placed on contact precautions, visitors should be instructed to:",
+      "options": [
+        "Wear a gown and gloves before entering the room",
+        "Wear a mask and face shield only",
+        "Avoid bringing any items into the room",
+        "Use airborne precautions equipment"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of a sentinel event reporting system?",
+      "options": [
+        "To identify and analyze serious adverse events to prevent recurrence",
+        "To punish healthcare providers responsible for errors",
+        "To monitor patient satisfaction",
+        "To standardize pay scales in healthcare"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which sign is typical of severe preeclampsia?",
+      "options": [
+        "Severe hypertension and proteinuria",
+        "Bradycardia and hypothermia",
+        "Hyperglycemia and weight gain",
+        "Mild edema and nausea"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is an example of tertiary prevention?",
+      "options": [
+        "Rehabilitation programs for stroke survivors",
+        "Immunization programs for children",
+        "Cancer screening for early detection",
+        "Health education to reduce smoking"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "When preparing a sterile field, which action would contaminate the field?",
+      "options": [
+        "Reaching over the sterile field to get equipment",
+        "Opening sterile packages away from the body",
+        "Keeping hands above waist level",
+        "Turning slightly away to sneeze while stepping back"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "The correct sequence for assessing bowel sounds is:",
+      "options": [
+        "Inspect, auscultate, percuss, palpate",
+        "Palpate, percuss, auscultate, inspect",
+        "Auscultate, inspect, percuss, palpate",
+        "Percuss, palpate, auscultate, inspect"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following indicates effective teaching about tuberculosis treatment?",
+      "options": [
+        "'I will take my medications exactly as prescribed for the full course of therapy.'",
+        "'I can stop taking my medication when I feel better.'",
+        "'I only need to take the medication once a week.'",
+        "'I can drink alcohol while taking the medication.'"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which nursing diagnosis is appropriate for a client with an indwelling catheter experiencing frequent bladder spasms?",
+      "options": [
+        "Impaired comfort related to bladder spasms",
+        "Risk for impaired skin integrity",
+        "Constipation",
+        "Ineffective health maintenance"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which of the following is a potential side effect of ACE inhibitors like enalapril?",
+      "options": [
+        "Dry cough",
+        "Tachycardia",
+        "Hypercalcemia",
+        "Weight gain"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A patient is prescribed furosemide for heart failure. Which laboratory value requires monitoring?",
+      "options": [
+        "Serum potassium",
+        "Serum calcium",
+        "Serum bilirubin",
+        "Serum sodium"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which statement is true regarding delegation?",
+      "options": [
+        "The nurse remains accountable for the delegated task",
+        "Once delegated, the nurse is no longer responsible for the outcome",
+        "Delegation can only be done by physicians",
+        "Only tasks requiring assessment can be delegated"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which nursing action is indicated when a chest tube becomes dislodged from the patient?",
+      "options": [
+        "Cover the insertion site with a sterile petroleum gauze and notify the provider",
+        "Clamp the tube immediately and reinsert it",
+        "Leave the site open to air and observe",
+        "Apply pressure to the site with gloved hands and wait"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "A patient with a history of congestive heart failure gains 2 kg in 24 hours. This weight gain most likely indicates:",
+      "options": [
+        "Fluid retention",
+        "Dietary non-compliance",
+        "Increased muscle mass",
+        "Normal fluctuations"
+      ],
+      "answer": 0
+    }
+  ]
+}
