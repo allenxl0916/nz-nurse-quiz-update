@@ -1,230 +1,173 @@
-/*
- * NZ Nursing State Exam Quiz
- *
- * This JavaScript file drives the quiz application. It loads a question set
- * from a JSON file, shuffles the questions using the Fisher‑Yates algorithm
- * (see freeCodeCamp article for details【918369654936955†L31-L47】), and
- * displays one question at a time with four answer options. When an
- * option is selected the choice is marked green if correct or red if
- * incorrect. Navigation buttons allow the user to move backward and forward
- * through the quiz. At the end, the score is displayed. Questions and
- * answers are rendered as plain text to make copying easy.
- */
+// Quiz application script
 
-let quizData = null;
-let currentSet = null;
-let shuffledQuestions = [];
-let userAnswers = [];
-// Keep track of all selected option indices per question to support changing answers while
-// preserving previously chosen wrong answers (red) and correct answers (green).
-let selectedOptions = [];
-let currentIndex = 0;
+let quizSets = [];
+let currentSetIndex = null;
+let questions = [];
+let currentQuestion = 0;
+let answeredCount = 0;
+let correctCount = 0;
+let selectedAnswers = {};
+let startTime = null;
+let timerInterval = null;
 
-const setSelect = document.getElementById('setSelect');
-const startBtn = document.getElementById('startBtn');
-const quizContainer = document.getElementById('quizContainer');
-const questionEl = document.getElementById('question');
-const optionsEl = document.getElementById('options');
-const progressEl = document.getElementById('progress');
-const scoreEl = document.getElementById('score');
-const prevBtn = document.getElementById('prevBtn');
-const nextBtn = document.getElementById('nextBtn');
-
-// Load quiz data from JSON file or from an embedded script tag when opened over file://
-async function loadQuizData() {
-  // If the data has been embedded via questions_data.js then use it. This allows the quiz
-  // to work over file:// without relying on fetch or an embedded JSON script.
-  if (typeof window.embeddedQuizData !== 'undefined' && window.embeddedQuizData) {
-    quizData = window.embeddedQuizData;
-    populateSetSelect();
-    return;
+// Populate the set selection dropdown
+function populateSelect() {
+  const select = document.getElementById('setSelect');
+  select.innerHTML = '';
+  if (typeof quizData !== 'undefined' && quizData.sets) {
+    quizSets = quizData.sets;
   }
-  // First try to read embedded JSON data from a script tag. This allows the
-  // application to work when opened locally via the file:/// protocol, where
-  // fetching a separate JSON file is blocked by CORS.
-  const embedded = document.getElementById('embedded-questions');
-  if (embedded && embedded.textContent.trim()) {
-    try {
-      quizData = JSON.parse(embedded.textContent);
-      populateSetSelect();
-      return;
-    } catch (e) {
-      console.warn('Failed to parse embedded questions JSON:', e);
-      // Fall through to try fetch
-    }
-  }
-  try {
-    const response = await fetch('questions.json');
-    // When running over file://, browsers may block fetch due to CORS. If the
-    // request fails we catch and fall back to a built‑in sample question set.
-    quizData = await response.json();
-    populateSetSelect();
-  } catch (err) {
-    console.warn('Failed to load quiz data, using fallback:', err);
-    // Fallback: embed a default set if the JSON file cannot be fetched (e.g. when opened over file://)
-    quizData = {
-      sets: [
-        {
-          name: 'Default Set',
-          questions: [
-            {
-              question: 'What is the normal range of adult body temperature?',
-              options: ['36.1°C to 37.2°C', '34°C to 35°C', '38°C to 39°C', '32°C to 33°C'],
-              answer: 0
-            },
-            {
-              question: 'Which of the following is an example of a pulse rate within normal limits for an adult?',
-              options: ['45 beats per minute', '75 beats per minute', '120 beats per minute', '130 beats per minute'],
-              answer: 1
-            },
-            {
-              question: 'In the context of infection control, what does “aseptic technique” refer to?',
-              options: ['Allowing non‑sterile contact with open wounds', 'A procedure used to minimize the risk of introducing infection during invasive procedures', 'Washing hands after each patient contact', 'Using antibiotics prophylactically'],
-              answer: 1
-            }
-          ]
-        }
-      ]
-    };
-    populateSetSelect();
-  }
-}
-
-// Populate select element with available sets
-function populateSetSelect() {
-  // Clear any existing options
-  setSelect.innerHTML = '';
-  quizData.sets.forEach((set, index) => {
+  quizSets.forEach((set, index) => {
     const option = document.createElement('option');
     option.value = index;
     option.textContent = set.name;
-    setSelect.appendChild(option);
+    select.appendChild(option);
   });
 }
 
-// Shuffle an array using the Fisher‑Yates algorithm【918369654936955†L31-L46】
-function shuffle(array) {
-  const arr = array.slice();
-  for (let i = arr.length - 1; i > 0; i--) {
+// Shuffle array using Fisher-Yates
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  return arr;
+  return a;
 }
 
-// Start the quiz with the selected set
+// Start the quiz when user clicks start
 function startQuiz() {
-  const setIndex = parseInt(setSelect.value, 10);
-  currentSet = quizData.sets[setIndex];
-  // Shuffle questions for this set
-  shuffledQuestions = shuffle(currentSet.questions);
-  // Initialize user answers array
-  userAnswers = new Array(shuffledQuestions.length).fill(null);
-  // Initialize selected options list for each question
-  selectedOptions = new Array(shuffledQuestions.length).fill(null).map(() => []);
-  currentIndex = 0;
-  // Hide setup and show quiz container
-  document.getElementById('setup').hidden = true;
-  quizContainer.hidden = false;
-  scoreEl.hidden = true;
-  renderQuestion();
+  const select = document.getElementById('setSelect');
+  const selected = parseInt(select.value, 10);
+  if (isNaN(selected) || !quizSets[selected]) return;
+  currentSetIndex = selected;
+  // Copy and shuffle questions
+  questions = shuffleArray(quizSets[selected].questions);
+  currentQuestion = 0;
+  answeredCount = 0;
+  correctCount = 0;
+  selectedAnswers = {};
+  // Hide main screen and show quiz screen
+  document.getElementById('main-screen').style.display = 'none';
+  document.getElementById('quiz-screen').style.display = 'block';
+  // Start timer
+  startTime = Date.now();
+  updateTimer();
+  timerInterval = setInterval(updateTimer, 1000);
+  // Show first question
+  showQuestion();
 }
 
-// Render current question and options
-function renderQuestion() {
-  // Clear previous options
+// Display question and options
+function showQuestion() {
+  const q = questions[currentQuestion];
+  const questionEl = document.getElementById('question');
+  const optionsEl = document.getElementById('options');
+  questionEl.textContent = `Q${currentQuestion + 1}. ${q.question}`;
   optionsEl.innerHTML = '';
-  // Update progress
-  progressEl.textContent = `Question ${currentIndex + 1} of ${shuffledQuestions.length}`;
-  const q = shuffledQuestions[currentIndex];
-  questionEl.textContent = q.question;
-  // Render options
+  // For each option create button
   q.options.forEach((opt, idx) => {
-    const div = document.createElement('div');
-    div.classList.add('option');
-    div.textContent = opt;
-    div.dataset.index = idx;
-    // Add click handler for selecting/changing answers
-    div.addEventListener('click', () => handleAnswer(idx));
-    // If this option was previously selected, apply styling
-    if (selectedOptions[currentIndex].includes(idx)) {
-      if (idx === q.answer) {
-        div.classList.add('correct');
-      } else {
-        div.classList.add('incorrect');
+    const btn = document.createElement('button');
+    btn.textContent = `${String.fromCharCode(65 + idx)}. ${opt}`;
+    btn.addEventListener('click', () => selectOption(idx));
+    // If this question has been answered, show class
+    if (selectedAnswers.hasOwnProperty(currentQuestion)) {
+      const record = selectedAnswers[currentQuestion];
+      if (record.selected === idx) {
+        // Mark color based on correctness of first choice
+        btn.classList.add(record.correct ? 'correct' : 'incorrect');
       }
     }
-    optionsEl.appendChild(div);
+    optionsEl.appendChild(btn);
   });
-  // Manage navigation button states
-  prevBtn.disabled = currentIndex === 0;
-  // Disable next if current question has not yet been answered (no selection)
-  nextBtn.disabled = userAnswers[currentIndex] === null;
+  // Update navigation buttons
+  document.getElementById('prevButton').disabled = currentQuestion === 0;
+  document.getElementById('nextButton').disabled = currentQuestion === questions.length - 1;
+  // Update scoreboard
+  updateScoreboard();
 }
 
-// Handle answer selection
-function handleAnswer(selectedIndex) {
-  const q = shuffledQuestions[currentIndex];
-  const opts = selectedOptions[currentIndex];
-  // If this option hasn't been selected before, record it
-  if (!opts.includes(selectedIndex)) {
-    opts.push(selectedIndex);
-  }
-  // Update final answer to last clicked
-  userAnswers[currentIndex] = selectedIndex;
-  // Update styling: add correct/incorrect classes to clicked option, but do not remove previous markings
-  const optionDivs = optionsEl.querySelectorAll('.option');
-  optionDivs.forEach((div) => {
-    const idx = parseInt(div.dataset.index, 10);
-    if (idx === selectedIndex) {
-      if (idx === q.answer) {
-        div.classList.add('correct');
-      } else {
-        div.classList.add('incorrect');
-      }
-    }
-  });
-  // Enable next button now that the question has a selection
-  nextBtn.disabled = false;
-}
-
-// Navigate to previous question
-function goPrev() {
-  if (currentIndex > 0) {
-    currentIndex--;
-    renderQuestion();
-  }
-}
-
-// Navigate to next question or finish
-function goNext() {
-  if (currentIndex < shuffledQuestions.length - 1) {
-    currentIndex++;
-    renderQuestion();
+// Handle option selection
+function selectOption(optionIndex) {
+  const q = questions[currentQuestion];
+  const optionsEl = document.getElementById('options');
+  // Determine if first time answering
+  let firstAttempt = !selectedAnswers.hasOwnProperty(currentQuestion);
+  // Determine correctness for display based on the option clicked
+  const correctForDisplay = optionIndex === q.answer;
+  if (firstAttempt) {
+    // First attempt: record answer and update score
+    answeredCount++;
+    const correct = correctForDisplay;
+    if (correct) correctCount++;
+    selectedAnswers[currentQuestion] = { selected: optionIndex, correct };
   } else {
-    // End of quiz, show score
-    showScore();
+    // Subsequent attempts: do not change score but update selected index
+    selectedAnswers[currentQuestion].selected = optionIndex;
+  }
+  // Update option button classes: highlight current selection based on whether it is correct
+  Array.from(optionsEl.children).forEach((btn, idx) => {
+    btn.classList.remove('correct', 'incorrect');
+    if (selectedAnswers[currentQuestion] && selectedAnswers[currentQuestion].selected === idx) {
+      // Use current click correctness for display, not stored correctness
+      btn.classList.add(correctForDisplay ? 'correct' : 'incorrect');
+    }
+  });
+  // Update scoreboard
+  updateScoreboard();
+}
+
+function prevQuestion() {
+  if (currentQuestion > 0) {
+    currentQuestion--;
+    showQuestion();
   }
 }
 
-// Calculate and display score
-function showScore() {
-  let correctCount = 0;
-  shuffledQuestions.forEach((q, idx) => {
-    if (userAnswers[idx] === q.answer) {
-      correctCount++;
-    }
-  });
-  scoreEl.textContent = `You answered ${correctCount} out of ${shuffledQuestions.length} correctly.`;
-  scoreEl.hidden = false;
-  // Disable the next button after finishing
-  nextBtn.disabled = true;
+function nextQuestion() {
+  if (currentQuestion < questions.length - 1) {
+    currentQuestion++;
+    showQuestion();
+  }
 }
 
-// Set up event listeners
-startBtn.addEventListener('click', startQuiz);
-prevBtn.addEventListener('click', goPrev);
-nextBtn.addEventListener('click', goNext);
+function updateScoreboard() {
+  const scoreboard = document.getElementById('scoreboard');
+  scoreboard.textContent = `Answered: ${answeredCount} of ${questions.length} | Correct: ${correctCount}`;
+}
 
-// Initialise the quiz on page load
-loadQuizData();
+function updateTimer() {
+  if (!startTime) return;
+  const elapsed = Math.floor((Date.now() - startTime) / 1000);
+  const minutes = Math.floor(elapsed / 60).toString().padStart(2, '0');
+  const seconds = (elapsed % 60).toString().padStart(2, '0');
+  document.getElementById('timer').textContent = `Time: ${minutes}:${seconds}`;
+}
+
+function exitQuiz() {
+  // Stop timer
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  // Show main screen
+  document.getElementById('quiz-screen').style.display = 'none';
+  document.getElementById('main-screen').style.display = 'block';
+  // Reset timer display and scoreboard
+  document.getElementById('timer').textContent = 'Time: 00:00';
+  document.getElementById('scoreboard').textContent = '';
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  populateSelect();
+  document.getElementById('startButton').addEventListener('click', startQuiz);
+  document.getElementById('prevButton').addEventListener('click', prevQuestion);
+  document.getElementById('nextButton').addEventListener('click', nextQuestion);
+  document.getElementById('exitButton').addEventListener('click', exitQuiz);
+  // Register service worker if supported
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js').catch((err) => {
+      console.error('Service worker registration failed:', err);
+    });
+  }
+});

@@ -1,99 +1,101 @@
-/* Basic styling for the quiz app */
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.screen {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 20px;
-  background-color: #f7f7f7;
-  color: #333;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
 }
 
 h1 {
   text-align: center;
-  color: #1976d2;
 }
 
-.setup {
+.select-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin-top: 40px;
-}
-
-.quiz {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.progress {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.question {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-}
-
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.option {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  cursor: pointer;
-  user-select: text; /* allow selection for copy */
-}
-
-.option:hover {
-  background-color: #f1f1f1;
-}
-
-.option.correct {
-  background-color: #d4edda;
-  border-color: #28a745;
-  color: #155724;
-}
-
-.option.incorrect {
-  background-color: #f8d7da;
-  border-color: #dc3545;
-  color: #721c24;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
   margin-top: 20px;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
 }
 
 button {
   padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
   border: none;
   border-radius: 4px;
-  background-color: #1976d2;
+  background-color: #007bff;
   color: white;
-  cursor: pointer;
 }
 
 button:disabled {
-  background-color: #ccc;
+  background-color: #cccccc;
   cursor: not-allowed;
 }
 
-/* Score display */
-.score {
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-weight: bold;
+}
+
+#question {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#options button {
+  text-align: left;
+}
+
+#options button.correct {
+  background-color: #28a745;
+  color: white;
+}
+
+#options button.incorrect {
+  background-color: #dc3545;
+  color: white;
+}
+
+.nav-bar {
   margin-top: 20px;
-  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#scoreboard {
+  margin-top: 20px;
   text-align: center;
   font-weight: bold;
 }
