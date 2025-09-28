@@ -99,3 +99,11 @@ button:disabled {
   text-align: center;
   font-weight: bold;
 }
+
+/* Explanation text */
+.explanation {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+  white-space: pre-wrap;
+}

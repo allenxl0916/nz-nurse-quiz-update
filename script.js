@@ -85,6 +85,18 @@ function showQuestion() {
   document.getElementById('nextButton').disabled = currentQuestion === questions.length - 1;
   // Update scoreboard
   updateScoreboard();
+  // Clear explanation when loading a new question
+  const expEl = document.getElementById('explanation');
+  if (expEl) {
+    // Reset explanation; it may be set below if explanation was previously shown
+    expEl.textContent = '';
+  }
+  // If this question has been answered and explanation should be shown, display it
+  if (selectedAnswers[currentQuestion] && selectedAnswers[currentQuestion].showExplanation) {
+    if (expEl) {
+      expEl.textContent = q.explanation || '';
+    }
+  }
 }
 
 // Handle option selection
@@ -100,10 +112,15 @@ function selectOption(optionIndex) {
     answeredCount++;
     const correct = correctForDisplay;
     if (correct) correctCount++;
-    selectedAnswers[currentQuestion] = { selected: optionIndex, correct };
+    // Initialize showExplanation flag; will be set when correct option is chosen
+    selectedAnswers[currentQuestion] = { selected: optionIndex, correct, showExplanation: correct };
   } else {
     // Subsequent attempts: do not change score but update selected index
     selectedAnswers[currentQuestion].selected = optionIndex;
+    // If selecting a correct option later, enable explanation
+    if (optionIndex === q.answer) {
+      selectedAnswers[currentQuestion].showExplanation = true;
+    }
   }
   // Update option button classes: highlight current selection based on whether it is correct
   Array.from(optionsEl.children).forEach((btn, idx) => {
@@ -115,6 +132,19 @@ function selectOption(optionIndex) {
   });
   // Update scoreboard
   updateScoreboard();
+
+  // Show or hide explanation based on whether the correct option has been chosen
+  const expEl = document.getElementById('explanation');
+  if (selectedAnswers[currentQuestion].showExplanation) {
+    if (expEl) {
+      expEl.textContent = q.explanation || '';
+    }
+  } else {
+    // Only clear explanation if it hasn't been shown previously
+    if (expEl) {
+      expEl.textContent = '';
+    }
+  }
 }
 
 function prevQuestion() {
