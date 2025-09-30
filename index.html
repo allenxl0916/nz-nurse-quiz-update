@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>题库练习（修订版）</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans",sans-serif;line-height:1.5;margin:24px;}
+    header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:16px;}
+    select,button{font-size:16px;padding:8px 10px;}
+    .question{margin-top:16px;padding:16px;border:1px solid #ddd;border-radius:12px;}
+    .options{margin-top:12px;display:grid;gap:8px;}
+    .option{display:flex;align-items:center;gap:8px;padding:8px;border:1px solid #eee;border-radius:10px;cursor:pointer;}
+    .option input{cursor:pointer;}
+    .controls{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;}
+    .explanation{background:#f7f7ff;border-left:4px solid #6c6cff;padding:12px;border-radius:8px;margin-top:12px;white-space:pre-wrap;}
+    .hidden{display:none;}
+  </style>
+</head>
+<body>
+  <header>
+    <label>选择题库：
+      <select id="setSelect"></select>
+    </label>
+    <button id="startBtn">开始答题</button>
+    <button id="nextBtn" disabled>下一题</button>
+  </header>
+
+  <section id="quizArea" class="question hidden">
+    <div id="questionText"></div>
+    <div id="options" class="options"></div>
+    <div class="controls">
+      <button id="submitBtn" disabled>提交</button>
+      <button id="showExplBtn" disabled>查看解析</button>
+    </div>
+    <div id="explanation" class="explanation hidden"></div>
+  </section>
+
+  <!-- 先加载题库（非 module，提供全局 quizData） -->
+  <script src="./questions_data_fixed.js"></script>
+  <!-- 再加载逻辑脚本（非 module） -->
+  <script src="./script.js"></script>
+
+  <script>
+    // 轻量的运行时：将 script.js 需要的 DOM 钩子接起来（若你的 script.js 已经实现，这段可忽略）
+    // 下面实现一个最小可运行版本：调用 script.js 中已存在的函数名称时会优先用用户脚本；否则用这里的后备实现。
+    (function(){
+      // 如果用户脚本里没有这些函数，就提供兜底实现：
+      const $ = (sel)=>document.querySelector(sel);
+      const setSelect = $('#setSelect');
+      const startBtn = $('#startBtn');
+      const nextBtn = $('#nextBtn');
+      const quizArea = $('#quizArea');
+      const qText = $('#questionText');
+      const optionsEl = $('#options');
+      const submitBtn = $('#submitBtn');
+      const showExplBtn = $('#showExplBtn');
+      const explEl = $('#explanation');
+
+      let quizSets = [];
+      let currentSet = null;
+      let idx = -1;
+      let current = null;
+      let selected = -1;
+
+      function populateSelect(){
+        // 使用全局 quizData（由 questions_data_fixed.js 提供）
+        if (typeof quizData !== 'undefined' && quizData.sets) {
+          quizSets = quizData.sets;
+        } else {
+          console.warn('未检测到 quizData，请确认加载顺序。');
+        }
+        setSelect.innerHTML = '';
+        quizSets.forEach((s,i)=>{
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.textContent = s.name || `题库 ${i+1}`;
+          setSelect.appendChild(opt);
+        });
+      }
+
+      function renderQuestion(q){
+        qText.textContent = q.question || '';
+        optionsEl.innerHTML = '';
+        explEl.textContent = q.explanation || '';
+        explEl.classList.add('hidden');
+        showExplBtn.disabled = true;
+        submitBtn.disabled = true;
+        selected = -1;
+
+        (q.options || []).forEach((opt, i)=>{
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `<input type="radio" name="opt"> <span>${opt}</span>`;
+          const input = label.querySelector('input');
+          input.addEventListener('change', ()=>{
+            selected = i;
+            submitBtn.disabled = false;
+          });
+          optionsEl.appendChild(label);
+        });
+      }
+
+      function startQuiz(){
+        const chosen = Number(setSelect.value);
+        currentSet = quizSets[chosen] || null;
+        idx = -1;
+        quizArea.classList.remove('hidden');
+        nextBtn.disabled = false;
+        nextQuestion();
+      }
+
+      function nextQuestion(){
+        if (!currentSet) return;
+        idx = (idx + 1) % currentSet.questions.length;
+        current = currentSet.questions[idx];
+        renderQuestion(current);
+      }
+
+      function submit(){
+        if (selected < 0 || !current) return;
+        const opts = optionsEl.querySelectorAll('.option');
+        opts.forEach((el, i)=>{
+          if (i === current.answer) {
+            el.style.borderColor = '#22bb33';
+            el.style.background = '#f0fff4';
+          } else if (i === selected) {
+            el.style.borderColor = '#cc3344';
+            el.style.background = '#fff5f5';
+          }
+        });
+        showExplBtn.disabled = false;
+      }
+
+      function showExpl(){
+        explEl.classList.remove('hidden');
+      }
+
+      // 绑定
+      startBtn.addEventListener('click', startQuiz);
+      nextBtn.addEventListener('click', nextQuestion);
+      submitBtn.addEventListener('click', submit);
+      showExplBtn.addEventListener('click', showExpl);
+
+      // 初始化
+      populateSelect();
+    })();
+  </script>
+</body>
+</html>
